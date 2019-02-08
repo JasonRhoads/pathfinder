@@ -1,0 +1,1 @@
+class InvalidNaturalNumberException < StandardError; end
