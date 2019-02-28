@@ -36,7 +36,5 @@ r.display_room
 r1 = Room.new
 r1.display_room
 
-t = Trap.new("dart", 1)
+t = Trap.new(name:"Arrow Trap", damage: 1, hit_bonus: 15, effect: "Range Attack")
 t.display_trap
-t2 = Trap.new("pit", Dice.roll(10).first)
-t2.display_trap

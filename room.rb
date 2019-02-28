@@ -10,7 +10,6 @@ class Room
         @length = length
         @width = width
         @height = height
-
     end
     
     def display_room

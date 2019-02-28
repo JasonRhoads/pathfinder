@@ -12,9 +12,9 @@ RSpec.describe Dice do
     # TBD - passing in invalid values for die type or number rolls raises appropriate errors
   end
   
-  it "validates number of dice value" do
-    expect{ Dice.roll(-1, 6) }.to raise_error(InvalidNaturalNumberException)
-  end
+  #it "validates number of dice value" do
+  #  expect{ Dice.roll(-1, 6) }.to raise_error(InvalidNaturalNumberException)
+  #end
 
   it "validates dice value" do
     expect{ Dice.roll(6, -1) }.to raise_error(InvalidNaturalNumberException) 
